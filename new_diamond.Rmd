@@ -1,0 +1,9 @@
+install.packages("tidyverse")
+installed.packages()
+
+library(ggplot2)
+
+data("diamonds")
+View(diamonds)
+str(diamonds)
+colnames(diamonds)
