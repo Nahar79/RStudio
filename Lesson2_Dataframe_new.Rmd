@@ -114,11 +114,6 @@ head(fruit_rank)
 ```{r}
 str(fruit_rank)
 ```
-## Activity Wrap Up
-In this activity, you learned how to create data frames, view them with summary functions like `head()` and `glimpse()`, and then made changes with the `mutate()` function. You can continue practicing these skills by modifying the code chunks in the rmd file, or use this code as a starting point in your own project console. As you explore data frames, consider how they are similar and different to the tables you have worked with in other data analysis tools like spreadsheets and SQL. Data frames are one of the most basic building blocks you will need to work with data in `R`. So understanding how to create and work with data frames is an important first step to analyzing data.  
-
-Make sure to mark this activity as complete in Coursera.
-
 
 ```{r}
 mutate(fruit_rank, number_in_10 = number + 10)
